@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your $100 Hulu Gift Card!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #0f171e;
+            color: white;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #1a242f;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #1ce783;
+        }
+        
+        .logo i {
+            color: #1ce783;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #1ce783;
+        }
+        
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 0;
+            flex-wrap: wrap;
+        }
+        
+        .hero-content {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 30px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1 {
+            font-size: 3.2rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .highlight {
+            color: #1ce783;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #a3b2c2;
+            max-width: 600px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(to right, #1ce783, #00a8e1);
+            color: #0f171e;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 18px 45px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(28, 231, 131, 0.3);
+            margin-top: 20px;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(28, 231, 131, 0.5);
+        }
+        
+        .cta-button i {
+            margin-left: 8px;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 60px 0;
+            gap: 30px;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            background-color: #1a242f;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .feature i {
+            font-size: 2.5rem;
+            color: #1ce783;
+            margin-bottom: 20px;
+        }
+        
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .steps {
+            background-color: #1a242f;
+            padding: 50px;
+            border-radius: 15px;
+            margin: 60px 0;
+        }
+        
+        .steps h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        
+        .step-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #1ce783;
+            color: #0f171e;
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 50px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid #1a242f;
+            color: #a3b2c2;
+            font-size: 0.9rem;
+        }
+        
+        .disclaimer {
+            font-size: 0.8rem;
+            max-width: 800px;
+            margin: 30px auto;
+            color: #7a8a9a;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+            
+            .hero-content {
+                padding-right: 0;
+                margin-bottom: 40px;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fab fa-hulu"></i>
+                <span>Hulu</span>
+            </div>
+            <nav>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Get a <span class="highlight">$100 Hulu Gift Card</span> Absolutely Free!</h1>
+                <p>Enjoy unlimited access to thousands of movies, TV shows, and Hulu Originals. Stream on your favorite devices, anytime, anywhere. Claim your gift card today!</p>
+                <a href="https://singingfiles.com/show.php?l=0&u=2469155&id=71508" class="cta-button">
+                    Claim Your $100 Gift Card Now <i class="fas fa-gift"></i>
+                </a>
+                <p class="disclaimer">Limited time offer. Gift card valid for new and existing Hulu subscribers. Terms and conditions apply.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Hulu Streaming Service">
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-film"></i>
+                <h3>Thousands of Shows</h3>
+                <p>Access a massive library of TV shows, movies, and Hulu Originals.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tv"></i>
+                <h3>Watch Anywhere</h3>
+                <p>Stream on your phone, tablet, laptop, TV, and other devices.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-friends"></i>
+                <h3>Multiple Profiles</h3>
+                <p>Create personalized profiles for everyone in your household.</p>
+            </div>
+        </section>
+        
+        <section class="steps">
+            <h2>How To Get Your Gift Card</h2>
+            <div class="step-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Click The Button</h3>
+                    <p>Click the "Claim Your Gift Card" button above to get started.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Complete Simple Offer</h3>
+                    <p>Follow the simple instructions to qualify for your gift card.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Receive Your Gift Card</h3>
+                    <p>Get your $100 Hulu gift card delivered instantly via email.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section style="text-align: center; margin: 60px 0;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Don't Miss This Limited Time Offer!</h2>
+            <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto 40px;">This exclusive promotion won't last forever. Claim your $100 Hulu gift card now and start streaming your favorite content.</p>
+            <a href="https://singingfiles.com/show.php?l=0&u=2469155&id=71508" class="cta-button">
+                Get Your $100 Gift Card Now <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
+        
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add animation to CTA button on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctaButton = document.querySelector('.cta-button');
+            ctaButton.style.transform = 'scale(1.05)';
+            setTimeout(() => {
+                ctaButton.style.transform = 'scale(1)';
+            }, 300);
+            
+            // Add pulse animation every 10 seconds
+            setInterval(() => {
+                ctaButton.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    ctaButton.style.transform = 'scale(1)';
+                }, 300);
+            }, 10000);
+        });
+    </script>
+</body>
+</html>
